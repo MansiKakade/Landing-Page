@@ -1,0 +1,248 @@
+body {
+
+    /* background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+nav {
+    background-color: rgb(74, 73, 73);
+    border-bottom:5px double rgb(18, 162, 49);
+}
+
+.logo1 {
+    float: left;
+    color: rgb(143, 244, 213);
+    font-size: 80px;
+    padding: 6px;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 15px;
+    text-shadow: 5px 5px 15px rgb(129, 164, 32);
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Menu {
+
+    float: center;
+    padding: 25px;
+    /*color: rgb(20, 8, 8);
+    */
+    text-align: right;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 40px;
+}
+
+.item {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color: aqua;
+    background-color: black;
+    cursor: pointer;
+    /* border: 1px solid yellow;
+    */
+    border-radius: 15px;
+
+}
+
+.item:hover {
+
+    color: rgb(25, 0, 255);
+    background-color: white;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-right: 100px;
+    image-resolution: 100%;
+}
+
+.p0 {
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: Verdana;
+    padding: 30px;
+    margin-right: 250px;
+
+}
+
+.p1 {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(161, 6, 22);
+    text-shadow: 5px 5px 15px rgb(103, 85, 171);
+    text-align: center;
+
+}
+
+.p2 {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(21, 116, 8);
+    text-shadow: 5px 5px 15px rgb(196, 30, 21);
+    margin-left: 150px;
+    text-align: center;
+}
+
+.btn1 {
+
+    width: 200px;
+    height: 70px;
+    color: black;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(147, 144, 175);
+    cursor: pointer;
+    border: rgb(54, 247, 93);
+}
+
+.btn1:hover {
+
+    color: rgb(241, 250, 78);
+    background-color: rgb(40, 38, 38);
+}
+
+.section {
+
+    border-bottom: 10px double rgb(68, 172, 70);
+}
+
+.txt {
+
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer {
+    padding-block: 50px;
+    background-color: lightcyan;
+}
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 10px;
+}
+
+.flex a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+
+}
+
+.flex a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(87, 60, 244);
+    transition: o.4s linear;
+}
+
+.flex a:hover:before {
+    width: 90%;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.imgs {
+
+    display: flex;
+
+}
+
+.img-view {
+
+    margin-left: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgb(245, 147, 147);
+}
+
+.wid {
+
+    width: 300px;
+    height: 220px;
+    size: cover;
+}
+
+.img-cap {
+
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 5px 5px 15px rgb(233, 36, 118);
+}
+
+.img-view:hover {
+
+    border: 15px solid rgb(132, 147, 116);
+}
+
+.break {
+    border-bottom: 10px double rgb(68, 172, 70);
+}
+
+.hover-link {
+    color: var(--primary-text-colour);
+    transition: 0.2 ease-out;
+
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
